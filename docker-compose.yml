@@ -1,0 +1,9 @@
+version: "3"
+service:
+  container:
+    images: centos
+    command: bash
+
+  container2: 
+    images: ubuntu:latest
+    command: bash
