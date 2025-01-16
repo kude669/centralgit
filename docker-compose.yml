@@ -2,6 +2,8 @@ version: "3"
 service:
   container:
     images: centos
+    tty: "true"
+    stdin_
     command: bash
 
   container2: 
