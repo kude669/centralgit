@@ -3,9 +3,11 @@ service:
   container:
     images: centos
     tty: "true"
-    stdin_
+    stdin_open: "true"
     command: bash
 
   container2: 
     images: ubuntu:latest
+    tty: "true"
+    stdin_open: "true"
     command: bash
