@@ -1,13 +1,13 @@
 version: "3"
 services:
   container:
-    images: centos
+    image: centos
     tty: true
     stdin_open: true
     command: /bin/bash
 
   container2: 
-    images: ubuntu:latest
+    image: ubuntu:latest
     tty: true
     stdin_open: true
     command: /bin/bash
